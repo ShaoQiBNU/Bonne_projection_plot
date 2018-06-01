@@ -38,8 +38,8 @@
     		lon=zip([i]*181,list(np.arange(-90,91)))
     		for j in lon:
 				x,y=transform(p1,p2,j[0],j[1])#投影转换
-				lon_Bonne.append((x,y))   
-    		x,y=LineString((lon_Bonne)).xy#画线
+				lon_Bonne.append((x,y))
+		x,y=LineString((lon_Bonne)).xy#画线
     		base.plot(x,y,linewidth=0.6,color='gray')
 # 绘图设置
 		plt.gca().xaxis.set_major_locator(plt.NullLocator())#去掉x轴刻度
