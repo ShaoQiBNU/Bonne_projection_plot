@@ -48,8 +48,6 @@
 		plt.gca().spines['bottom'].set_visible(False) #去掉下边框
 		plt.gca().spines['left'].set_visible(False) #去掉左边框
 		plt.gca().spines['right'].set_visible(False) #去掉右边框
-
-
 		font1 = {'family' : 'Times New Roman',  
 		'weight' : 'normal',  
 		'size'   : 30,  
