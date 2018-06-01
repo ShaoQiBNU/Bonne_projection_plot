@@ -28,11 +28,10 @@
     		lat_Bonne=[]
     		lat=zip(list(np.arange(-180,181)),[i]*361)
     		for j in lat:
-						#投影转换
-        		x,y=transform(p1,p2,j[0],j[1])
-        		lat_Bonne.append((x,y)) 
-				#画线
-				x,y=LineString((lat_Bonne)).xy
+				x,y=transform(p1,p2,j[0],j[1])#投影转换
+				lat_Bonne.append((x,y)) 
+				
+		x,y=LineString((lat_Bonne)).xy#画线
     		base.plot(x,y,linewidth=0.6,color='gray')
 ## 纬度 -180~180，步长为30
 		for i in range(-180,181,30):
