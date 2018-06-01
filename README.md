@@ -32,7 +32,7 @@
 				lat_Bonne.append((x,y)) 
 		
 		x,y=LineString((lat_Bonne)).xy#画线
-    		base.plot(x,y,linewidth=0.6,color='gray')
+		base.plot(x,y,linewidth=0.6,color='gray')
 ## 纬度 -180~180，步长为30
 		for i in range(-180,181,30):
     		lon_Bonne=[]
@@ -42,7 +42,7 @@
 				lon_Bonne.append((x,y))
 		
 		x,y=LineString((lon_Bonne)).xy#画线
-    		base.plot(x,y,linewidth=0.6,color='gray')
+		base.plot(x,y,linewidth=0.6,color='gray')
 # 绘图设置
 		plt.gca().xaxis.set_major_locator(plt.NullLocator())#去掉x轴刻度
 		plt.gca().yaxis.set_major_locator(plt.NullLocator())#去年y轴刻度
