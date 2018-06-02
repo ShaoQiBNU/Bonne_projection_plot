@@ -88,5 +88,24 @@ R如何画Bonne投影的心形地图
 Bonne_projection.R是程序
 -------------------------------------
 
+# 导入包
+		library(gsw)
+		library(testthat)
+		library(oce)
+		library(rgdal)
+		library(Matrix)
+
+# 下载数据
+		data(coastlineWorld)
+
+# 绘图
+		par(mar=c(1,1,1,1))
+## 设置投影
+		mapPlot(coastlineWorld, col=c('yellow','red2','violet','green3','royalblue','cyan'), 
+        		proj='+proj=bonne +lat_1=50 +lon_0=0',
+        		xlim=c(-13700000, 13700000),
+        		ylim=c(-15079625, 10008557))
+## 经纬度线
+		mapGrid(longitude = c(-180, 180), latitude=c(-90, 90),col='gray50')
 
 				
