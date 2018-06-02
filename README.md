@@ -108,4 +108,5 @@ Bonne_projection.R是程序
 ## 经纬度线
 		mapGrid(longitude = c(-180, 180), latitude=c(-90, 90),col='gray50')
 
-				
+# 结果如下
+![image](https://github.com/ShaoQiBNU/image/blob/master/image/images/Bonne_R.png)				
