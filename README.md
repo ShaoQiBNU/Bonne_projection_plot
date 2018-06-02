@@ -1,6 +1,6 @@
-如何画Bonne投影的心形地图
+python如何画Bonne投影的心形地图
 ======================
-data里是数据，Bonne_peojection.py是程序
+data里是数据，Bonne_projection.py是程序
 -------------------------------------
 
 # 导入包
@@ -82,5 +82,11 @@ data里是数据，Bonne_peojection.py是程序
 # 结果如下
 ![image](https://github.com/ShaoQiBNU/image/blob/master/images/Bonne.png)
 				
-				
+
+R如何画Bonne投影的心形地图
+========================
+Bonne_projection.R是程序
+-------------------------------------
+
+
 				
