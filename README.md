@@ -62,7 +62,7 @@
 		plt.text(6000000,-14000000,'            Author: ShaoQi \n NUIST  13RS  Xu YongMing \n   BNU   17GIS   Li 		Jing',fontdict=font1)
 		plt.show()
 # 结果如下
-![image](image/images/Bonne.png)
+![image](https://github.com/ShaoQiBNU/image/blob/master/images/Bonne.png)
 				
 				
 				
