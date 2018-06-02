@@ -1,5 +1,8 @@
 如何画Bonne投影的心形地图
 ======================
+data里是数据，Bonne_peojection.py是程序
+-------------------------------------
+
 # 导入包
 		from pyproj import Proj,transform
 		import geopandas
