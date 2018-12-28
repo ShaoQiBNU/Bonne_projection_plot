@@ -1,22 +1,29 @@
 python如何画Bonne投影的心形地图
-======================
+============================
+
 data里是数据，Bonne_projection.py是程序
 -------------------------------------
 
 # 导入包
-		from pyproj import Proj,transform
-		import geopandas
-		import seaborn as sns
-		from fiona.crs import from_epsg,from_string
-		import matplotlib.pyplot as plt
-		from geopandas import GeoSeries
-		from shapely.geometry import Point
-		from shapely.geometry import LineString
-		import numpy as np
+
+```python
+from pyproj import Proj,transform
+import geopandas
+import seaborn as sns
+from fiona.crs import from_epsg,from_string
+import matplotlib.pyplot as plt
+from geopandas import GeoSeries
+from shapely.geometry import Point
+from shapely.geometry import LineString
+import numpy as np
+```
 
 # 读取shapefile数据
-		shp = r'C:\Users\shaoqi_i\Desktop\osgeopy-data\global\ne_110m_admin_0_countries.shp'
-		shp_df = geopandas.GeoDataFrame.from_file(shp)
+
+```python
+shp = r'C:\Users\shaoqi_i\Desktop\osgeopy-data\global\ne_110m_admin_0_countries.shp'
+shp_df = geopandas.GeoDataFrame.from_file(shp)
+```
 
 # 设置投影
 		ESRI_Bonne = """+proj=bonne +lon_0=0 +lat_1=35"""
