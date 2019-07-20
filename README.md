@@ -108,7 +108,7 @@ plt.show()
 ```
 
 # 结果如下
-![image](https://github.com/ShaoQiBNU/image/blob/master/images/Bonne.png)
+![image](https://github.com/ShaoQiBNU/Bonne_projection_plot/blob/master/images/Bonne.png)
 				
 
 R如何画Bonne投影的心形地图
@@ -150,7 +150,7 @@ mapGrid(longitude = c(-180, 180), latitude=c(-90, 90),col='gray50')
 ```
 
 # 结果如下
-![image](https://github.com/ShaoQiBNU/image/blob/master/images/Bonne_R.png)	
+![image](https://github.com/ShaoQiBNU/Bonne_projection_plot/blob/master/images/Bonne_R.png)	
 
 # 参考
 
